@@ -1,0 +1,10 @@
+<html>
+<head>
+	<meta charset ="UTF-8">
+	<title>HTML CODE</title>
+</head>
+<body>	
+	<h1>Basics of HTML</h1>
+	<p>Lets Go</p>
+</body>
+</html>

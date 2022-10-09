@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FormsProject</title>
+    <style>
+        #form{
+            width: 300px;
+            background-color: white;
+            padding: 24px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .name{
+            margin: 0;
+            margin-top: 12px;
+            margin-bottom: 4px;
+        }
+        .input{
+            width: 100%;
+        }
+        #terms{
+            margin-top: 8px;
+            margin-bottom: 12px;
+        }
+    </style>
+</head>
+<body style="background-color: lightblue;">
+    <h1 style="text-align: center;">SIGNUP</h1>
+    <form id="form" method="get">
+        <div>
+            <p class="name">FullName</p>
+            <input class="input" type="fullname" name="username" placeholder="Full name" required>
+        </div
+        <div>
+            <p class="name">Age</p>
+            <input class="input" type="number" name="age" placeholder="Type your age"  min="18" max="30">
+        </div>
+        <div>
+            <p class="name">Email</p>
+            <input class="input" type="email" name="email" placeholder="Email" required>
+        </div>
+        <div>
+            <p class="name">Password</p>
+            <input class="input" type="password" name="password">
+        </div>
+        <div>
+            <p class="name">Confirm Password</p>
+            <input class="input" type="password" name="confirm-password">
+        </div>
+        <div>
+            <p class="name">Gender</p>
+            <input type="radio" name="male" value="male">Male</input>
+            <input type="radio" name="Female" value="female">Female</input>
+            <input type="radio" name="others" value="others">others</input>
+        </div>
+        <div>
+            <p class="name">Security Question</p>
+            <select class="input" name="Security-question">
+                <option value="Fav-Pet-Name">What was your first school name</option>
+                <option value="Fav-cricketer">Who is your Fav Cricketer</option>
+                <option value="Birth-place">What is your Birth Place</option>
+            </select>
+        </div>
+        <div>
+            <textarea class="input" name="answer" rows="6" cols="30"></textarea>
+        </div>
+        <div>
+            <input id="terms" type="checkbox" name="checkbox" value="accept">
+            I agree to terms and conditions</input>
+        </div>
+        <div>
+            <input type="submit" value="register">
+        </div>
+    </form>
+</body>
+</html>
